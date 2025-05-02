@@ -7,7 +7,7 @@ $db_name = "teacherdb";
 $conn = mysqli_connect($db_server, $db_user, $db_pass, $db_name);
 
 if ($conn) {
-    echo "Connection successful";
+    echo "Connection successful" . "<br>";
 } else {
     echo "No connection";
 }
